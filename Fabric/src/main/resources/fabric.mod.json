@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.darkhax.archeologybanners.ArcheologyBannersFabric"
+      "net.darkhax.archaeologybanners.ArchaeologyBannersFabric"
     ]
   },
   "depends": {
