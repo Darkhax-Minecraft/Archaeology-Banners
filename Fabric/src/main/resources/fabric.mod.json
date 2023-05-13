@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.darkhax.archeologybanners.ArcheologyBannersFabric"
+      "net.darkhax.archaeologybanners.ArchaeologyBannersFabric"
     ]
   },
   "depends": {
@@ -28,7 +28,7 @@
     "fabric": "*",
     "minecraft": "1.19.x",
     "java": ">=17",
-    "bookshelf": ">=16"
+    "bookshelf": ">=17"
   },
   "custom": {
     "modmenu": {

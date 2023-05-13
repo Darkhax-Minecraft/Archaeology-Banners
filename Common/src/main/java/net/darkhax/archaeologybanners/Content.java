@@ -26,7 +26,7 @@ public final class Content extends RegistryDataProvider {
 
         super(Constants.MOD_ID);
         this.config = Config.load(Services.PLATFORM.getConfigPath().resolve(Constants.MOD_ID + ".json").toFile());
-        this.withCreativeTab(() -> Items.CREEPER_BANNER_PATTERN);
+        this.withItemTab(Items.CREEPER_BANNER_PATTERN::getDefaultInstance);
 
         this.createPattern("angler", "bobber", "hook", "line", "rod");
         this.createPattern("archer", "arrow", "bow");
