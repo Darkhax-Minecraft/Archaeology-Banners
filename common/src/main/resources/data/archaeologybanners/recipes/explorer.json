@@ -1,0 +1,17 @@
+{
+  "type": "bookshelf:shapeless_durability",
+  "ingredients": [
+    {
+      "tag": "bookshelf:shears"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:explorer_pottery_sherd"
+    }
+  ],
+  "result": {
+    "item": "archaeologybanners:explorer_banner_pattern"
+  }
+}
