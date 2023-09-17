@@ -1,0 +1,23 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": "biomemakeover:refined_pottery_sherd"
+    }
+  ],
+  "type": "bookshelf:shapeless_durability",
+  "ingredients": [
+    {
+      "tag": "bookshelf:shears"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "biomemakeover:refined_pottery_sherd"
+    }
+  ],
+  "result": {
+    "item": "archaeologybanners:biomemakeover/refined_banner_pattern"
+  }
+}
