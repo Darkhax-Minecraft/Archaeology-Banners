@@ -3,6 +3,7 @@ package net.darkhax.archaeologybanners.content;
 import net.darkhax.archaeologybanners.Constants;
 import net.darkhax.bookshelf.api.Services;
 import net.darkhax.bookshelf.api.registry.RegistryDataProvider;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.BannerPatternItem;
@@ -35,7 +36,7 @@ public abstract class PatternProvider {
 
         if (this.isBuiltIn() || Services.PLATFORM.isModLoaded(this.getSourceId())) {
 
-            final TagKey<BannerPattern> patternsTag = Services.TAGS.bannerPatternTag(new ResourceLocation(Constants.MOD_ID, "pattern_item/" + this.getSourceId() + "/" + name));
+            final TagKey<BannerPattern> patternsTag = TagKey.create(Registries.BANNER_PATTERN, new ResourceLocation(Constants.MOD_ID, "pattern_item/" + this.getSourceId() + "/" + name));
             registry.items.add(() -> new BannerPatternItem(patternsTag, new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON)), registryName + "_banner_pattern");
         }
     }
