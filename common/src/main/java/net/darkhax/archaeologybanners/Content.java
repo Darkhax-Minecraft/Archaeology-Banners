@@ -14,7 +14,6 @@ import net.minecraft.world.level.block.entity.BannerPattern;
 
 public final class Content extends RegistryDataProvider {
 
-
     public static void init() {
 
         Services.REGISTRIES.loadContent(new Content());
@@ -45,6 +44,7 @@ public final class Content extends RegistryDataProvider {
         this.createPattern("plenty", "bottom", "lid");
         this.createPattern("prize", "inverted");
         this.createPattern("sheaf");
+        this.createPattern("shelter");
         this.createPattern("skull");
         this.createPattern("snout", "body", "nose", "shell");
     }
