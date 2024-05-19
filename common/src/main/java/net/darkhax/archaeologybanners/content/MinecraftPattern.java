@@ -29,6 +29,7 @@ public class MinecraftPattern extends PatternProvider {
         this.createPattern("plenty", "bottom", "lid");
         this.createPattern("prize", "inverted");
         this.createPattern("sheaf");
+        this.createPattern("shelter");
         this.createPattern("skull");
         this.createPattern("snout", "body", "nose", "shell");
     }
