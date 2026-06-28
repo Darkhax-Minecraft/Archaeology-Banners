@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:mourner_pottery_sherd"
+  ],
+  "result": {
+    "id": "archaeologybanners:mourner_banner_pattern"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "archaeologybanners:angler_banner_pattern",
+    "archaeologybanners:archer_banner_pattern",
+    "archaeologybanners:arms_up_banner_pattern",
+    "archaeologybanners:blade_banner_pattern",
+    "archaeologybanners:brewer_banner_pattern",
+    "archaeologybanners:burn_banner_pattern",
+    "archaeologybanners:danger_banner_pattern",
+    "archaeologybanners:explorer_banner_pattern",
+    "archaeologybanners:friend_banner_pattern",
+    "archaeologybanners:heart_banner_pattern",
+    "archaeologybanners:heartbreak_banner_pattern",
+    "archaeologybanners:howl_banner_pattern",
+    "archaeologybanners:miner_banner_pattern",
+    "archaeologybanners:mourner_banner_pattern",
+    "archaeologybanners:plenty_banner_pattern",
+    "archaeologybanners:prize_banner_pattern",
+    "archaeologybanners:sheaf_banner_pattern",
+    "archaeologybanners:shelter_banner_pattern",
+    "archaeologybanners:skull_banner_pattern",
+    "archaeologybanners:snort_banner_pattern",
+    "archaeologybanners:guster_banner_pattern",
+    "archaeologybanners:flow_banner_pattern"
+  ]
+}

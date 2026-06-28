@@ -1,0 +1,43 @@
+modLoader = "javafml"
+license = "ARR"
+issueTrackerURL = "https://github.com/Darkhax-Minecraft/Archaeology-Banners/issues"
+
+[[mods]]
+modId = "archaeologybanners"
+version = "26.1.2.0"
+displayName = "ArchaeologyBanners"
+updateJSONURL = "https://updates.blamejared.com/get?n=archaeologybanners&gv=26.1.2&ml=neoforge"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/archaeology-banners"
+logoFile = "logo_archaeologybanners.png"
+logoBlur = false
+credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+authors = "Darkhax"
+description = "Adds banner patterns based on Archaeology designs."
+
+[[mixins]]
+config = "archaeologybanners.common.mixins.json"
+
+[[mixins]]
+config = "archaeologybanners.neoforge.mixins.json"
+
+[[dependencies.archaeologybanners]]
+modId = "minecraft"
+type = "required"
+versionRange = "26.1"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.archaeologybanners]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.0.1-beta,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.archaeologybanners]]
+modId = "bookshelf"
+type = "required"
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+

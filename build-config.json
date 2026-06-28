@@ -1,0 +1,44 @@
+{
+  "mod": {
+    "name": "ArchaeologyBanners",
+    "group": "net.darkhax.archaeologybanners",
+    "authors": [
+      "Darkhax"
+    ],
+    "id": "archaeologybanners",
+    "license": "ARR",
+    "description": "Adds banner patterns based on Archaeology designs.",
+    "repo": "https://github.com/Darkhax-Minecraft/Archaeology-Banners",
+    "client": false
+  },
+  "curseforge": {
+    "slug": "archaeology-banners",
+    "id": "861357"
+  },
+  "modrinth": {
+    "slug": "archaeology-banners",
+    "id": "HZGv2FlJ"
+  },
+  "dependencies": [
+    {
+      "name": "Bookshelf",
+      "type": "required",
+      "mod_id": {
+        "id": "bookshelf"
+      },
+      "maven": {
+        "common": "net.darkhax.bookshelf:bookshelf-common-26.1.2:26.1.2.12",
+        "neoforge": "net.darkhax.bookshelf:bookshelf-neoforge-26.1.2:26.1.2.12",
+        "fabric": "net.darkhax.bookshelf:bookshelf-fabric-26.1.2:26.1.2.12"
+      },
+      "curseforge": {
+        "slug": "bookshelf",
+        "id": "228525"
+      },
+      "modrinth": {
+        "slug": "bookshelf-lib",
+        "id": "uy4Cnpcm"
+      }
+    }
+  ]
+}
