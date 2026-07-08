@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "archaeologybanners:item/heartbreak_banner_pattern"
+  }
+}

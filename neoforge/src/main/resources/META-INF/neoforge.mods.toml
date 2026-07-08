@@ -10,7 +10,7 @@ updateJSONURL = "https://updates.blamejared.com/get?n=archaeologybanners&gv=26.1
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/archaeology-banners"
 logoFile = "logo_archaeologybanners.png"
 logoBlur = false
-credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Tobias Ward, noobanidus"
 authors = "Darkhax"
 description = "Adds banner patterns based on Archaeology designs."
 

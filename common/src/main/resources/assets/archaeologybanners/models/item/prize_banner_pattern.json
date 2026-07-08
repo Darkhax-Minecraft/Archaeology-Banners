@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "archaeologybanners:item/prize_banner_pattern"
+  }
+}
