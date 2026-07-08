@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "archaeologybanners:item/flow_banner_pattern"
+    "layer0": "archaeologybanners:item/miner_banner_pattern"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "archaeologybanners:item/explorer_banner_pattern"
+  }
+}
